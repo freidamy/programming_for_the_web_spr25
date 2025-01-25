@@ -14,9 +14,9 @@ function draw() {
   fill('white');
   
   // body
-  circle(0, 0, size);        // Bottom
-  circle(0, -size/2, size/2);  // Middle
-  circle(0, -size, size/3);    // Head
+  circle(0, 0, size);        
+  circle(0, -size/2, size/2); 
+  circle(0, -size, size/3);   
   
   // arms
   stroke('orange');
