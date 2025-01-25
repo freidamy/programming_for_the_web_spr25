@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   
-  // User input prompts
+  // prompts
   heroName = prompt("Name your Batman snow hero:" , "bruce");
   heroColor = prompt("Choose a color for the hero (white/black):", "white");
 }
@@ -11,22 +11,22 @@ function draw() {
   
   translate(width/2, height/2);
   
-  // Snow creature body
+  // body
   fill(heroColor);
   circle(0, 0, 150);        // Bottom
   circle(0, -100, 100);     // Middle
   circle(0, -200, 75);      // Head
   
-  // Batman mask
+  // batman mask
   fill('black');
   triangle(-40, -200, 40, -200, 0, -250);
   
-  // Eyes
+  // eyes
   fill('white');
   circle(-20, -200, 20);
   circle(20, -200, 20);
   
-  // Bat symbol
+  // bat symbol
   fill('black');
   beginShape();
     vertex(0, -100);
@@ -42,7 +42,7 @@ function draw() {
   line(-75, -150, -150, -100);
   line(75, -150, 150, -100);
   
-  // Optional: Display hero name
+  // hero name
   textSize(20);
   fill('white');
   text(heroName, -50, 150);
