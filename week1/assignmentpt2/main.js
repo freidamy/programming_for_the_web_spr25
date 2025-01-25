@@ -36,13 +36,13 @@ function draw() {
     vertex(20, -90);
   endShape(CLOSE);
   
-  // Arms
+  // arms
   stroke('black');
   strokeWeight(5);
   line(-75, -150, -150, -100);
   line(75, -150, 150, -100);
   
-  // hero name
+  // name
   textSize(20);
   fill('white');
   text(heroName, -50, 150);
