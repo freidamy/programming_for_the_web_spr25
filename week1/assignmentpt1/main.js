@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   
-  // prompt
+  // prompt size
   size = prompt("How big should the snow creature be? (50-200)");
   size = parseInt(size);
 }

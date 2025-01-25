@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   
-  // prompts
+  // prompts for name and color
   heroName = prompt("Name your Batman snow hero:" , "bruce");
   heroColor = prompt("Choose a color for the hero (white/black):", "white");
 }
